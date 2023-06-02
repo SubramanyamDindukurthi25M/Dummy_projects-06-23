@@ -1,0 +1,42 @@
+h4 {
+  color: green;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 3rem;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 {
+  color: #666;
+  text-align: center;
+}
+header {
+  border-top: 5px solid red;
+  border-bottom: 5px double red;
+  background-color: darkcyan;
+}
+main p {
+  font-size: 15px;
+  color: darkgoldenrod;
+}
+main {
+  background-color: beige;
+}
+main p {
+  letter-spacing: 0.3rem;
+}
+main article {
+  background-color: papayawhip;
+}
+main article p {
+  padding: 2rem;
+}
+p {
+  font-size: 20px;
+}
+button {
+  font-size: 40px;
+}

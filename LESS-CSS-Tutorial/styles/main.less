@@ -1,0 +1,74 @@
+// LESS variables
+@textColor : #666;
+
+// LESS mixins
+// Mixins are a way of including ("mixing in") a bunch of properties from one rule-set into another rule-set.
+.borderStyle(@size: 10px; @color: black) {
+    border-top: @size solid @color;
+    border-bottom: @size double @color;
+}
+
+// Mixin Guards
+.paraContent(@size) when(@size >=21) {
+    font-size: @size;
+    color: darkkhaki;
+}
+
+.paraContent(@size) when(@size <=21) {
+    font-size: @size;
+    color: darkgoldenrod;
+}
+
+// LESS Imports
+@import 'header';
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: @textColor;
+    text-align: center;
+}
+
+header {
+    .borderStyle(5px, red);
+    background-color: darkcyan;
+}
+
+main {
+    p {
+        .paraContent(15px)
+    }
+}
+
+// LESS nesting
+main {
+    background-color: beige;
+
+    p {
+        letter-spacing: 0.3rem;
+    }
+
+    article {
+        background-color: papayawhip;
+
+        p {
+            padding: 2rem;
+        }
+    }
+}
+
+// LESS Operations
+@base-size : 20px;
+
+p {
+    font-size: @base-size;
+}
+
+button {
+    font-size: @base-size * 2;
+}

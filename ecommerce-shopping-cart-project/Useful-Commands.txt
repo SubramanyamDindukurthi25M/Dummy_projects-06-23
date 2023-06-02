@@ -1,0 +1,23 @@
+1)To install primereact and primeicons 
+    npm install primereact primeicons        
+
+2)To install Primeflex - is a CSS utility library featuring various helpers such as a grid system, flexbox, spacing, elevation and more.
+  npm install primeflex --saves
+
+3)To install node sass
+    npm install sass --save-dev
+
+4)To install react-router V6
+  npm install react-router-dom@6
+  
+5)To install Phosphor Icons
+  npm i phosphor-icons
+
+6)To install react-query
+   npm i react-query
+
+7)To install axios
+  npm install axios
+
+8)To install sweetalert 
+  npm i sweetalert

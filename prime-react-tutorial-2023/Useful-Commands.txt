@@ -1,0 +1,7 @@
+1)PrimeReact is a rich set of open source UI components for React.
+
+2)PrimeReact is available for download at npm.
+  npm install primereact primeicons        
+
+3)PrimeFlex is a CSS utility library featuring various helpers such as a grid system, flexbox, spacing, elevation and more.
+ npm install primeflex --saves
